@@ -29,7 +29,7 @@ btn.addEventListener("click", (e) => {
       pass.classList.remove("error");
       uname.setAttribute("placeholder", "try : time");
       pass.setAttribute("placeholder", "try : secret");
-    }, 500);
+    }, 3000);
     fail.length = 0;
   }
 });
