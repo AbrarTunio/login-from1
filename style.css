@@ -134,3 +134,23 @@ div.btn input {
   background-color: rgb(12, 121, 56);
   color: whitesmoke;
 }
+
+.error {
+  border: 1px solid red !important;
+  animation: login;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  /* animation-direction: alternate-reverse; */
+}
+
+@keyframes login {
+  0% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  75% {
+    transform: translateX(0px);
+  }
+}
